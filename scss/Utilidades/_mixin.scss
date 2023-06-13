@@ -1,0 +1,22 @@
+
+@mixin productos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
+}
+
+@mixin catalogo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
+    gap: 30px;
+}
+
+@mixin biografia {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 55%;
+    align-items: center;
+    justify-content: center;
+}
+

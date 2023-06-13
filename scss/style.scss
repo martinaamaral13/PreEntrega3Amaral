@@ -1,0 +1,64 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos generales */
+body {
+    font-family: 'IM Fell DW Pica', serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-image: url(../img/FONDO.png);
+    color: #0E1C27;
+}
+
+header {
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+    div nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #0E1C27;
+    }
+}
+
+@import "utilidades/mq";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+
+.aboutus{
+    font-size: medium;
+}
+
+.link{
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    @extend %border;
+}
+
+.boton{
+    :hover {
+        color: #C3A2D3;
+        text-decoration: underline;
+      }
+}
+
+.link{
+    :hover {
+        color: #C3A2D3;
+        text-decoration: underline;
+      }
+}
+
+

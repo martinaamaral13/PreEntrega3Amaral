@@ -1,0 +1,44 @@
+@import "_mixin.scss";
+@import "_extend.scss";
+
+@media screen and (min-width:1200px) {
+    .merch{
+    @include catalogo;
+    }
+    .tsmidnights{
+        @include catalogo;
+    }
+    .index{
+        @include productos;
+    } 
+
+    .newsletter{
+        @include productos;
+    }
+
+    .aboutus{
+        @include biografia;
+    }
+   
+}
+
+@media screen and (min-width:1180px) {
+    .merch {
+    @include catalogo;
+    }
+
+    .index {
+      @include productos;
+    }
+
+    .newsletter {
+       @include productos;
+    }
+
+    .aboutus{
+        @include biografia;
+    }
+    .tsmidnights{
+        @include catalogo;   }
+}
+

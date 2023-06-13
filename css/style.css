@@ -1,0 +1,106 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Estilos generales */
+body {
+  font-family: 'IM Fell DW Pica', serif;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  background-image: url(../img/FONDO.png);
+  color: #0E1C27; }
+
+header {
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px; }
+  header div nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; }
+  header nav ul li a {
+    text-decoration: none;
+    color: #0E1C27; }
+
+.link {
+  border: 5px solid black;
+  margin: 1rem;
+  padding: 1rem; }
+
+@media screen and (min-width: 1200px) {
+  .merch {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
+    gap: 30px; }
+  .tsmidnights {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
+    gap: 30px; }
+  .index {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content; }
+  .newsletter {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content; }
+  .aboutus {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 55%;
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (min-width: 1180px) {
+  .merch {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
+    gap: 30px; }
+  .index {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content; }
+  .newsletter {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content; }
+  .aboutus {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 55%;
+    align-items: center;
+    justify-content: center; }
+  .tsmidnights {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
+    gap: 30px; } }
+
+.link {
+  border: 5px solid black;
+  margin: 1rem;
+  padding: 1rem; }
+
+.aboutus {
+  font-size: medium; }
+
+.link {
+  justify-content: center;
+  align-items: center;
+  display: inline; }
+
+.boton :hover {
+  color: #C3A2D3;
+  text-decoration: underline; }
+
+.link :hover {
+  color: #C3A2D3;
+  text-decoration: underline; }
